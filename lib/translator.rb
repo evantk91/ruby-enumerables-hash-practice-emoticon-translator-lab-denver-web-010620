@@ -23,6 +23,8 @@ def get_japanese_emoticon(path, emoticon)
   if j_emoticon == nil
     return "Sorry, that emoticon was not found"
   end
+  
+  j_emoticon
 end
 
 def get_english_meaning(path, emoticon)
