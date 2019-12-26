@@ -18,8 +18,8 @@ def load_library(path)
 end
 
 def get_japanese_emoticon
-= load_library("./emoticons.yml")
-
+  library = load_library("./emoticons.yml")
+  
 end
 
 def get_english_meaning
